@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link href="./style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: transparent !important;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .navbar.opaque {
+      background-color: #000 !important;
+    }
+
+    .carousel-item {
+      position: relative;
+    }
+
+    .carousel-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"> VIRAT KOHLI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Image Slider -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Images /Hero Images /Hero1.jpeg" class="d-block img-fuild w-100 hero-imge" alt="Slide 1">
+        <div class="carousel-content">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Images /Hero Images /hero5.jpeg" class="d-block w-100 img-fuild hero-imge " alt="Slide 2">
+        <div class="carousel-content">
+          <h1 > "Driven by passion, defined by excellence: Virat Kohli."</h1>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./Images /Hero Images /hero4.jpeg" class="d-block w-100 img-fuild hero-imge " alt="Slide 2">
+        <div class="carousel-content">
+          <h1 > "Cricket's relentless force: Virat Kohli."</h1>
+
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="bg-light pt-5 pb-5 shadow-sm">
+    <div class="container">
+
+      <div class="row justify-content-between align-items-stretch">
+        <div class="col-md-4">
+          <img src="./Images /Grid/img1.jpg" alt="About" class="img-fluid m-1" style="height: 609px;" />
+        </div>
+
+        <div class="col-md-4 mission-values-container">
+          <div class="card text-white bg-dark overflow-hidden rounded-0" style="height: 609px;">
+
+            <div class="p-3">
+              <p class="p-3">
+
+                Virat Kohli, often hailed as one of the greatest cricketers of all time, has left an indelible mark on
+                the sport with his unparalleled talent, fierce determination, and remarkable consistency. Born on
+                November 5, 1988, in Delhi, India, Kohli's journey from a young cricket enthusiast to a global icon is
+                nothing short of inspirational.
+                seating areas cater to different preferences. From plush and comfortable lounge seating for those
+                seeking a relaxed evening to high-top tables for a more vibrant and social experience.
+              </p>
+              <p class="p-3">
+                Kohli burst onto the international cricket scene in 2008, making his debut for the Indian cricket team
+                in an ODI against Sri Lanka. From the outset, his batting prowess was evident, showcasing a blend of
+                exquisite timing, aggressive stroke-play, and an insatiable hunger for runs. His ability to chase down
+                targets under pressure quickly earned him the reputation of a "chase master."
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <img src="./Images /Grid/img2.jpg" alt="About" class="img-fluid mb-4 m-1"
+            style="max-height: 280px; width: 440px;" />
+          <img src="./Images /Grid/img4.jpg" alt="About" class="img-fluid mt-4  m-1"
+            style="max-height: 280px; width: 440px;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4 p-4">
+          <img src="./Images /Grid/img3.jpg" alt="Image 1" class="img-fluid max-width-100" />
+        </div>
+
+        <div class="col-12 col-md-4 p-4">
+          <img src="./Images /Grid/img5.jpg" alt="Image 2" class="img-fluid max-width-100" />
+        </div>
+
+        <div class="col-12 col-md-4 p-4">
+          <img src="./Images /Grid/2b31f6d3b1d459f642ccda63b9f1fd10.jpg" alt="Image 3" class="img-fluid max-width-100" style="height: 700px;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="Algin-items-center" style="text-align: center;">
+    <h1 class="mt-5"> Relationship <span class="text-danger">&hearts;</span> </h1>
+   
+  </div>
+
+
+
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="about-Section m-3 p-3 mb-5">
+          <article class="article group d-flex flex-md-row flex-column">
+            <img class="img-fluid m-2 p-2" src="./Images /ViratAnu.jpg" alt="Image">
+            <section class="content m-2 p-2">
+              <h2 class="headline">Virat <span class="text-danger">&hearts;</span> Anushka</h2>
+              <p>Virat Kohli and Anushka Sharma are a well-known power couple in India. Virat Kohli is one of the most
+                renowned cricketers globally, having captained the Indian cricket team and achieved numerous records in
+                the sport. Anushka Sharma is a popular Bollywood actress, producer, and entrepreneur known for her roles
+                in various Hindi films.</p>
+              <p>
+                The couple first met during the shooting of a commercial and began dating in 2013. They tied the knot on
+                December 11, 2017, in a private ceremony in Italy, which was attended by close friends and family. Their
+                wedding became a significant event in both the sports and entertainment industries.
+              </p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Algin-items-center" style="text-align: center;">
+    <h1 class="mt-5 mb-5"> Records</h1>
+
+
+    
+  </div>
+  <section class="about-2 section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Images /Testmonilas /r5.jpg" style="height: 400px; width: 100%;" class="d-block w-100" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images /Testmonilas /r4.jpg" style="height: 400px; width: 100%;" class="d-block w-100" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images /Testmonilas /R3.jpg" style="height: 400px; width: 100%;" class="d-block w-100" alt="Third slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <ul class="checklist m-3 p-3">
+            <li>Fastest to 8,000, 9,000, 10,000, and 11,000 runs in One Day Internationals (ODIs).</li>
+            <li>Fastest to score 20 centuries in ODIs.</li>
+            <li>Fastest century by an Indian in ODIs.</li>
+            <li>Highest career batting average in ODIs for a batsman with more than 50 innings.</li>
+            <li>Only player in history to average over 50 in Tests, ODIs, and T20Is simultaneously.</li>
+            <li>Most runs by an Indian captain in Tests.</li>
+            <li>Most centuries by an Indian captain in Tests.</li>
+            <li>Most ODI centuries in successful run chases.</li>
+            <li>Fastest to reach 10,000 runs in international cricket (combining Tests, ODIs, and T20Is).</li>
+            <li>First Indian captain to win a Test series in Australia.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="Algin-items-center" style="text-align: center;">
+    <h1 class="mt-5">What Other Players  Say About Him</h1>
+    <p class="mt-5">Testimonials</p>
+  </div>
+
+
+
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="carousel-item-1">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="about-Sectio m-3 p-3 mb-5">
+                <article class="article group d-flex flex-md-row flex-column">
+                  <img class="img-fluid m-2 p-2" src="./Images /Testmonilas /Rohit-Sharma-Virat-T20-WC.jpg" alt="Image">
+                  <section class="content m-2 p-2">
+                    <h2 class="headline">Rohit Shrama</h2>
+                    <p>Virat and I have shared countless moments on and off the field. From our early days in cricket to
+                      representing our nation at the highest level, our journey has been nothing short of extraordinary.
+
+                      When I think of Virat, I think of passion, dedication, and sheer determination. His commitment to
+                      the game is unparalleled, and it reflects in every inning he plays. Whether it's chasing down a
+                      target or leading from the front, Virat's presence on the field is nothing short of inspiring..
+                    </p>
+                    <p>But beyond his cricketing prowess, Virat is a true leader. His ability to motivate and rally his
+                      team is second to none. He leads by example, always pushing himself and his teammates to strive
+                      for excellence. And it's this leadership that has propelled Indian cricket to new heights.
+                    </p>
+                    <p>
+                      Off the field, Virat is a friend you can always count on. His humility and down-to-earth nature
+                      make him not just a great cricketer but also a wonderful human being. He's someone you can share a
+                      laugh with, someone who understands the rigors of the game, and someone who's always there to
+                      offer support.
+                    </p>
+                  </section>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" id="carousel-item-2">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="about-Sectio m-3 p-3 mb-5">
+                <article class="article group d-flex flex-md-row flex-column">
+                  <img class="img-fluid m-2 p-2" src="./Images /Testmonilas /Rohit-Sharma-Virat-T20-WC.jpg" alt="Image">
+                  <section class="content m-2 p-2">
+                    <h2 class="headline">Rohit Shrama</h2>
+                    <p>Virat and I have shared countless moments on and off the field. From our early days in cricket to
+                      representing our nation at the highest level, our journey has been nothing short of extraordinary.
+
+                      When I think of Virat, I think of passion, dedication, and sheer determination. His commitment to
+                      the game is unparalleled, and it reflects in every inning he plays. Whether it's chasing down a
+                      target or leading from the front, Virat's presence on the field is nothing short of inspiring..
+                    </p>
+                    <p>But beyond his cricketing prowess, Virat is a true leader. His ability to motivate and rally his
+                      team is second to none. He leads by example, always pushing himself and his teammates to strive
+                      for excellence. And it's this leadership that has propelled Indian cricket to new heights.
+                    </p>
+                    <p>
+                      Off the field, Virat is a friend you can always count on. His humility and down-to-earth nature
+                      make him not just a great cricketer but also a wonderful human being. He's someone you can share a
+                      laugh with, someone who understands the rigors of the game, and someone who's always there to
+                      offer support.
+                    </p>
+                  </section>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" id="carousel-item-3">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="about-Sectio m-3 p-3 mb-5">
+                <article class="article group d-flex flex-md-row flex-column">
+                  <img class="img-fluid m-2 p-2" src="./Images /Testmonilas /Rohit-Sharma-Virat-T20-WC.jpg" alt="Image">
+                  <section class="content m-2 p-2">
+                    <h2 class="headline">Rohit Shrama</h2>
+                    <p>Virat and I have shared countless moments on and off the field. From our early days in cricket to
+                      representing our nation at the highest level, our journey has been nothing short of extraordinary.
+
+                      When I think of Virat, I think of passion, dedication, and sheer determination. His commitment to
+                      the game is unparalleled, and it reflects in every inning he plays. Whether it's chasing down a
+                      target or leading from the front, Virat's presence on the field is nothing short of inspiring..
+                    </p>
+                    <p>But beyond his cricketing prowess, Virat is a true leader. His ability to motivate and rally his
+                      team is second to none. He leads by example, always pushing himself and his teammates to strive
+                      for excellence. And it's this leadership that has propelled Indian cricket to new heights.
+                    </p>
+                    <p>
+                      Off the field, Virat is a friend you can always count on. His humility and down-to-earth nature
+                      make him not just a great cricketer but also a wonderful human being. He's someone you can share a
+                      laugh with, someone who understands the rigors of the game, and someone who's always there to
+                      offer support.
+                    </p>
+                  </section>
+                </article>
+       
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleSlidesOnly"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleSlidesOnly"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Add event listener to window scroll
+    window.addEventListener('scroll', function () {
+      var navbar = document.querySelector('.navbar');
+      var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Add or remove opaque class based on scroll position
+      if (currentScroll > 200) {
+        navbar.classList.add('opaque');
+      } else {
+        navbar.classList.remove('opaque');
+      }
+    });
+  </script>
+</body>
+
+</html>
